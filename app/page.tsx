@@ -7,10 +7,7 @@ export default function Home() {
       <nav className="bg-white shadow">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            <div className="flex items-center">
-              <div className="flex-shrink-0">
-                <img className="h-8 w-8" src="/next.svg" alt="Logo" />
-              </div>
+            <div className="flex items-center">              
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   <Link href="/" className="text-gray-900 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium">
@@ -80,7 +77,7 @@ export default function Home() {
 
             <div className="mt-10">
               <div className="max-w-2xl mx-auto space-y-8 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8">
-              <div className="flex flex-col bg-white rounded-lg shadow-lg overflow-hidden">
+                <div className="flex flex-col bg-white rounded-lg shadow-lg overflow-hidden">
                   <div className="px-6 py-8">
                     <p className="text-lg font-semibold text-gray-900 mb-2">Efficient and user-friendly</p>
                     <p className="text-gray-700 text-base">As a teacher, I really appreciate how easy it is to use this system. I can quickly find student information and manage my classes. It has definitely made my job easier.</p>
@@ -113,9 +110,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-
-
       </main>
     </div>
   );
